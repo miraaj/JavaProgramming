@@ -8,7 +8,7 @@ class CustomException extends Exception{
 	CustomException(int name){
 		detail = name;
 	}
-	public String message(){
+	public String toString(){
 		return "CustomException["+detail+"]";
 	}
 }
