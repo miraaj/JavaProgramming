@@ -62,3 +62,32 @@ Eg:
 
 
 ```
+### Running using __HTML__ file
+In order to run applet program using **HTML** file, we use the same **appletviewer** command but this time instead of java file, we pass html file. And the appletcode is separated from java program.
+
+**Place this code in HTML file and save it (say A.html)**
+```
+<applet code="SimpleApplet" width=60 height=100></applet>
+```
+**And java program separately**
+```
+public class SimpleApplet extends Applet {
+    String message = "Welcome To AppletProgramming";
+    int xPosition = 30, yPosition = 50;
+
+    public void  paint(Graphics graphics){
+        graphics.drawString( message, xPosition,yPosition );
+
+    }
+}
+```
+__After successful compilation we use appletviewer command to execute program as__
+```
+Syntax:
+   appletviewer filename.html
+Eg:
+   appletviewer A.html
+
+
+```
+
