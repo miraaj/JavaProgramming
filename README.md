@@ -3,7 +3,7 @@ This repository contains the lecture ppt, codes used in lecture and assignment f
 ## Executing Java Program
 For the java program to run through command line, follow the steps below:
 * Compile Program
-First we need to compile program to make sure it's error free (compile time error) using the command **javac**
+    * First we need to compile program to make sure it's error free (compile time error) using the command **javac**
 ```
 Syntax:
     javac filename.java
@@ -12,7 +12,7 @@ Eg:
 ```
 The compilation is same regardless of different class name, always use **filename** to compile.
 * Running Program
-To this point it is assumed that you've compiled program without any error. Now we use **java** command to run the program
+    * To this point it is assumed that you've compiled program without any error. Now we use **java** command to run the program
 ```
 Syntax:
     java classname
