@@ -37,12 +37,19 @@ For this method to use put the code
 in your java code as shown below. The code value must be the class name. In this case it's **SimpleApplet** same as class name.
 
 ## Executing Applet Program
-Since Applet Program doesn't have main method as we've seen in earlier program, below are the procedure explaining execution of applet program.
+Since Applet Program doesn't have main method as in earlier program, below are the procedure explaining execution of applet program.
 
-###
+What ever method you use to run an applet program, first you need to compile it as usual.
+### Running using __appletviewer filename.java__ command
+
+For this method to use put the code
+```
+<applet code="SimpleApplet" width=60 height=100></applet>
 
 ```
->>>>>>> f99b8b2a94a62a3a40deb20b78867b29ed3034e7
+in your java code as shown below. The code value must be the class name. In this case it's **SimpleApplet** same as class name.
+
+```
 import java.applet.Applet;
 import java.awt.*;
 
@@ -60,3 +67,12 @@ public class SimpleApplet extends Applet {
 }
 
 ``` 
+Now after successful compilation use the command **appletviewer** to run as
+```
+Syntax:
+   appletviewer filename.java
+Eg:
+   appletviewer SimpleApplet.java
+
+
+```
